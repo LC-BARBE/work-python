@@ -41,8 +41,7 @@ def main():
         position = input("Entrez la position du portable (h/haut, b/bas, g/gauche, d/droite) ou 'q' pour quitter : ").lower()
 
         if position == 'q':
-            break  # Quitter la boucle principale si l'utilisateur entre 'q'
-
+            break  # Quitter la boucle
         data_buffer = []  
 
         start_server()
